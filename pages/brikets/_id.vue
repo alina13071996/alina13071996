@@ -15,10 +15,10 @@
               <div class="mb-2" style="font-size:16px;line-height:18px"><b>Размеры: </b>200*100*50 мм</div>
               <div class="d-flex justify-end mr-5 mb-2"><div><b>Срок хранения: </b>12 месяцев</div></div>
               <div class="d-flex flex-row justify-end mr-5">
-                  <div class="d-flex ml-5">
+                  <div class="d-flex ml-3">
                       <div class="Roboto_Regular"><b>Вес: </b>2 кг</div>
                   </div>
-                  <div class="d-flex ml-5">
+                  <div class="d-flex ml-2">
                       <div class="Roboto_Regular"><b>Цена: </b>{{briket.price}}</div>
                   </div>
               </div>

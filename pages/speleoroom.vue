@@ -11,15 +11,15 @@
             :style="`color:white; ${isMobile ? 'width:250px;margin-top:40px;':'width:90vw;margin-top:120px;'}`">
                 <div class="d-flex flex-column" :style="` ${isMobile ? 'width:100%;' : 'width:35vw;'}`">
                     <v-img class="mx-auto mb-5" width="65px" max-height="55px" src="/speleo/img1.png" />
-                    <div style="font-size:25px">Разработка индивидуального дизайн-проекта</div>
+                    <div :style="`${isMobile ? 'font-size:15px' : 'font-size:25px'}`">Разработка индивидуального дизайн-проекта</div>
                 </div>
                 <div :class="`d-flex flex-column ${isMobile ? 'mt-5 mb-5' : 'mr-12 ml-12'}`" :style="` ${isMobile ? 'width:100%;' : 'width:40vw;'}`">
                     <v-img class="mx-auto mb-5" width="55px" max-height="55px" src="/speleo/img2.png" />
-                    <div style="font-size:25px">Создаем вентиляцию и микроклимат настоящей соляной пещеры</div>
+                    <div :style="`${isMobile ? 'font-size:15px' : 'font-size:25px'}`">Создаем вентиляцию и микроклимат настоящей соляной пещеры</div>
                 </div>
                 <div class="d-flex flex-column" :style="` ${isMobile ? 'width:100%;' : 'width:35vw;'}`">
                     <v-img class="mx-auto mb-5" width="55px" max-height="55px" src="/speleo/img3.png" />
-                    <div style="font-size:25px">Делаем  дополнительные элементы по требованию заказчика</div>
+                    <div :style="`${isMobile ? 'font-size:15px' : 'font-size:25px'}`">Делаем  дополнительные элементы по требованию заказчика</div>
                 </div>
             </div>
             <!--Диалог Узнать цену-->
@@ -56,7 +56,7 @@
         </div>
         <div style="background-image: url('/speleo/waterSpeleo1.png'); background-size: cover;">
             <div :class="`${isMobile ? 'zagalovok_mobile': 'zagalovok'}`">Строим спелеоклиматические камеры для:</div>
-            <div class="flex-row d-flex justify-center grid mb-16">
+            <div class="flex-row justify-center grid mb-16">
                 <div class="block_salt">
                     <div class="Roboto_Medium mt-2 mb-2" style="font-size:20px">Санатория</div>
                     <v-img class="mx-auto mb-5 mt-5" height="180px" width="180px" src="/speleo/speleo1.png"/>
@@ -70,7 +70,7 @@
                     <v-img class="mx-auto mb-5 mt-5" height="180px" width="180px" src="/speleo/speleo3.png"/>
                 </div>
             </div>
-            <div class="Roboto_Regular mx-auto pb-8" style="width:80vw; font-size:20px">
+            <div class="Roboto_Regular mx-auto pb-8" style="width:80vw; font-size:20px; text-align:center">
                 <b>Спелеоклиматическая камера</b> - это специально оборудованное помещение, 
                 стены, потолок и пол которого покрыты соляными брикетами. Подобная конструкция создает 
                 определенную благоприятную для организма человека влажность, температуру и давление. 
@@ -206,7 +206,7 @@
         <div style="background-image: url('/speleo/water_video.png'); background-size: cover; height: 50vw;">
             <div class="d-flex justify-center" style="height:100%">
                 <div class="my-auto pt-10">
-                    <video ref="videoPlayer" :width="`${isMobile ? '400px': '800px'}`" loop muted controls>
+                    <video ref="videoPlayer" :width="`${isMobile ? '375px': '800px'}`" loop muted controls>
                         <source src="/speleo/mp4/video.mp4" type="video/mp4">
                     </video>
                 </div>
