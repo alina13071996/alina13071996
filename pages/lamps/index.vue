@@ -1,7 +1,7 @@
 <template>
     <div style="background-image: url('/lamps/waterLamps.png'); height:100%; width:100%; background-size:cover;">
         <div :class="`${isMobile ? 'zagalovok_mobile': 'zagalovok'}`">Лампы солевые для интерьера</div>
-        <div class="grid1 mt-10 pb-10 justify-center">
+        <div class="grid mt-10 pb-10 justify-center">
             <div v-for="(lamp, i) in lamps" :value="i" :key="i" class="d-flex justify-center">
                 <div class="block_salt mx-auto">
                     <v-hover v-slot="{ hover }">
@@ -14,13 +14,6 @@
     </div>
 </template>
 
-<style>
-.grid1{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px,500px));
-    grid-gap:60px;
-}
-</style>
 
 <script>
 export default {

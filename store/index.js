@@ -121,13 +121,18 @@ export const state = {
       {
         img1:'/lamps/lampBig1.png',
         img2:'/lamps/lampBig2.png',
-        name:'Лампа солевая большая', 
+        name:'Лампа солевая большая. Вариант 1', 
+      },
+      {
+        img1:'/lamps/lamp3.png',
+        img2:'/lamps/lamp3_1.png',
+        name:'Лампа солевая большая. Вариант 2', 
       },
       {
         img1:'/lamps/lampLittle1.png',
         img2:'/lamps/lampLittle2.png',
         name:'Лампа солевая маленькая', 
-      } 
+      }
     ],
     preimuzh:[
       {

@@ -7,7 +7,8 @@
         <v-img height="50px" max-width="80px" src="/logotip.png"/><v-spacer></v-spacer>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       </v-app-bar>
-      <v-navigation-drawer v-model="drawer" absolute temporary width="60%">
+      <v-navigation-drawer v-model="drawer" right class="overflow-hidden" absolute temporary width="60%" 
+      style="transform: unset;">
           <v-item-group v-model="group" style="margin-top:150px;">
             <v-list-item v-for="(button, i) in buttons" :value="i" :key="i" :to="button.to" 
             class="d-flex justify-center Roboto_Medium" color="green">

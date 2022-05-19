@@ -281,19 +281,11 @@ export default {
                     src1: '/speleo/slide1.png',
                     name: 'Детский санаторий ОАО “Белагроздравница” Налибокская пуща'
                     },
-                slide2: {
-                    src1: '/speleo/slide2.png',
-                    name: 'Санаторий ОАО«Белагроздравница» Сосновый бор'
-                    },
                 slide3:{
-                    src1:'/speleo/slide3.png',
-                    name: 'Санаторий ОАО«Белагроздравница» Поречье'
-                    },
-                slide4:{
                     src1: '/speleo/slide4.png',
                     name: 'Санаторий ОАО«Белагроздравница» Поречье'
                     },
-                slide5:{
+                slide4:{
                     src1: '/speleo/slide5.png',
                     name: 'Санаторий ОАО«Белагроздравница» Березина'
                     },

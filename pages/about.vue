@@ -16,8 +16,8 @@
         <div :class="`${isMobile ? 'zagalovok_mobile pt-2 pb-2': 'zagalovok'}`">Преимущества работы<br><span style="color:#00780F">
             ООО "ГринПром"</span></div>
         <div class="d-flex flex-column mx-auto mt-16" style="width:70vw;">
-            <div v-for="(preim, i) in preimuzh" :value="i" :key="i" class="d-flex ml-16 flex-row mb-10">
-                <div class="mr-10"><v-img height="50px" width="50px" :src="preim.icon"/></div>
+            <div v-for="(preim, i) in preimuzh" :value="i" :key="i" class="d-flex  flex-row mb-10">
+                <div class="mr-5"><v-img height="50px" width="50px" :src="preim.icon"/></div>
                 <div class="Roboto_Regular my-auto" style="font-size:20px; align-text:center">{{preim.text}}</div>
             </div>
         </div>
